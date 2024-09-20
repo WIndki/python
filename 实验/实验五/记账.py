@@ -10,7 +10,14 @@ c = conn.cursor()
 
 # 创建表格
 c.execute('''CREATE TABLE IF NOT EXISTS expenses
-             (id INTEGER PRIMARY KEY, date TEXT, amount REAL, category TEXT, note TEXT)''')
+             (
+             id INTEGER PRIMARY KEY,
+             date TEXT,
+             amount REAL,
+             category TEXT,
+             note TEXT
+             )
+''')
 conn.commit()
 
 # 提交数据到数据库

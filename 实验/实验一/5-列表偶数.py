@@ -6,10 +6,10 @@ def sum_positive_even_numbers(numbers):
     return sum
 
 def main():
-    input_list = int(input("输入列表空格分隔: ").split())
+    input_list = input("输入列表空格分隔: ").split()
     input_list = list(map(int,input_list))
     result = sum_positive_even_numbers(input_list)
-    print(f"The sum of all positive even numbers in the list is: {result}")
+    print(f"偶数和为: {result}")
 
 if __name__ == "__main__":
     main()

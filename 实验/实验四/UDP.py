@@ -25,5 +25,5 @@ def main():
         UDP_Recv(UDP_socket)
     else:
         print("error")
-
-main()
+if __name__ == "__main__":
+    main()
