@@ -1,7 +1,7 @@
 import sqlite3
 
 # 连接到 SQLite 数据库（如果数据库不存在，则会自动创建）
-conn = sqlite3.connect('student_courses.db')
+conn = sqlite3.connect('./实验/实验五student_courses.db')
 cursor = conn.cursor()
 
 # 创建本学期课程表

@@ -5,7 +5,7 @@ import sqlite3
 from datetime import datetime
 
 # 创建数据库连接
-conn = sqlite3.connect('expenses.db')
+conn = sqlite3.connect('./实验/实验五/expenses.db')
 c = conn.cursor()
 
 # 创建表格
