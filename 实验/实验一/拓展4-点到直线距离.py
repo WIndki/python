@@ -14,8 +14,8 @@ def point_to_line_distance(x0, y0, k, b):
 
 def main():
     #输入两点，计算直线方程
-    x1, y1 = map(float, input("第一个点").split())
-    x2, y2 = map(float, input("第二个点").split())
+    x1, y1 = map(float, input("第一个点x1,y1").split())
+    x2, y2 = map(float, input("第二个点x2,y2").split())
     k,b = line_equation(x1, y1, x2, y2)
     if not k is None:
         print(f"直线方程为：y = {k}x + {b}")
