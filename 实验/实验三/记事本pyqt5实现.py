@@ -104,7 +104,7 @@ class Notepad(QMainWindow):
             self.saveFile()
 
     def about(self):
-        QMessageBox.about(self, '关于', '作者: Your Name\n版权: Your Company')
+        QMessageBox.about(self, '关于', '黄勉嘉')
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

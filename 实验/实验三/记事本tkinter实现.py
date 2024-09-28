@@ -49,7 +49,7 @@ def select_all():
     text_area.tag_add("sel", "1.0", tk.END)
 
 def show_about():
-    messagebox.showinfo("About", "Author: Your Name\nCopyright: 2023")
+    messagebox.showinfo("About", "Author: 黄勉嘉\n")
 
 root = tk.Tk()
 root.title("记事本")
